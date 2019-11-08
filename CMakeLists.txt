@@ -7,13 +7,13 @@ LINK_DIRECTORIES(/usr/local/Cellar/flann/1.9.1_7/lib )
 
 find_package(OpenCV REQUIRED)
 
-add_executable(untitled main.cpp viewer.h)
+add_executable(untitled main.cpp viewer.h stereoMatchingApp.cpp stereoMatchingApp.h)
 
 # Thread
 find_package(Threads REQUIRED)
 
 # PCL
-find_package(PCL 1.8 REQUIRED COMPONENTS common io visualization)
+find_package(PCL 1.8 REQUIRED COMPONENTS common io visualization stereo)
 # Additional include directories
 include_directories(${PCL_INCLUDE_DIRS} ${OpenCV_INCLUDE_DIRS})
 # Preprocessor definitions

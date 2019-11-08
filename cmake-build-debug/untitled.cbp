@@ -153,6 +153,12 @@
 		<Unit filename="/Users/Jana/Documents/Elte/Msc3/sensorFusion/imageMatching/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/Users/Jana/Documents/Elte/Msc3/sensorFusion/imageMatching/stereoMatchingApp.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/Jana/Documents/Elte/Msc3/sensorFusion/imageMatching/stereoMatchingApp.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/Users/Jana/Documents/Elte/Msc3/sensorFusion/imageMatching/viewer.h">
 			<Option target="untitled"/>
 		</Unit>
